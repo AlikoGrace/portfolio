@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b03acb4-4060-42d3-9e9e-00cf3df46362" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d94174e3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d94174e3.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b1a804ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b1a804ea.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b1a804ea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_0.d6ccdd7e785e60913776.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_01.10ec59a60e9e9f4f9719.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_02.8f787318a126002329a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_1.3211420ab0815e78b669.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_10.78062c5c06c3a7f40ed8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_11.8a70f7fc04d45e9baf7d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_12.89940dfa47b2867cfc88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_13.bf80f8e5bc0dfef56ec5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_2.4b0e7298ba58acca8d66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_3.6f311594b6e58e05b138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_4.52ce4dd023d3eb9bd7c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_5.530c85b0b3e4bcb371fd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_6.1339f088b16921c47dce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_7.a089ffe44857a77be414.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_8.9a1aceab7e832f7e5b8e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cert_9.8871b116f61b19a53fd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D5LujCTzdyl4cJhP2iKbKsCaTN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aliko/WebstormProjects/portfolio/src/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\src\project_details" />
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\src\certificates" />
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\src\images" />
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <react-native value="" />
+      <platform value="ANDROID" />
+      <envs />
+      <only-packager />
+      <browser value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <method v="2">
+        <option name="ReactNativePackager" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b03acb4-4060-42d3-9e9e-00cf3df46362" name="Changes" comment="" />
+      <created>1659984228704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659984228704</updated>
+      <workItem from="1659984229840" duration="3091000" />
+      <workItem from="1660027503677" duration="87000" />
+      <workItem from="1660027596969" duration="1593000" />
+      <workItem from="1660192785263" duration="28404000" />
+      <workItem from="1660538555494" duration="18195000" />
+      <workItem from="1660674347823" duration="5063000" />
+      <workItem from="1662986096992" duration="6300000" />
+      <workItem from="1663102893426" duration="2261000" />
+      <workItem from="1664257865698" duration="8371000" />
+      <workItem from="1664300855393" duration="666000" />
+      <workItem from="1665395986442" duration="3920000" />
+      <workItem from="1665834067212" duration="13041000" />
+      <workItem from="1665903450104" duration="729000" />
+      <workItem from="1667233249821" duration="6423000" />
+      <workItem from="1669838881969" duration="3762000" />
+      <workItem from="1683302216288" duration="10555000" />
+      <workItem from="1683336013652" duration="23000" />
+      <workItem from="1683458218300" duration="18002000" />
+      <workItem from="1683496871845" duration="322000" />
+      <workItem from="1683497452855" duration="1577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
