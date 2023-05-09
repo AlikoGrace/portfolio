@@ -6,29 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b03acb4-4060-42d3-9e9e-00cf3df46362" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.d94174e3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.d94174e3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b1a804ea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b1a804ea.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b1a804ea.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_0.d6ccdd7e785e60913776.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_01.10ec59a60e9e9f4f9719.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_02.8f787318a126002329a7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_1.3211420ab0815e78b669.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_10.78062c5c06c3a7f40ed8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_11.8a70f7fc04d45e9baf7d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_12.89940dfa47b2867cfc88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_13.bf80f8e5bc0dfef56ec5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_2.4b0e7298ba58acca8d66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_3.6f311594b6e58e05b138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_4.52ce4dd023d3eb9bd7c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_5.530c85b0b3e4bcb371fd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_6.1339f088b16921c47dce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_7.a089ffe44857a77be414.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_8.9a1aceab7e832f7e5b8e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/cert_9.8871b116f61b19a53fd1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -68,7 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/aliko/WebstormProjects/portfolio/src/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aliko/WebstormProjects/rock-paper-scissors-game&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -127,6 +104,8 @@
       <workItem from="1683458218300" duration="18002000" />
       <workItem from="1683496871845" duration="322000" />
       <workItem from="1683497452855" duration="1577000" />
+      <workItem from="1683541016292" duration="659000" />
+      <workItem from="1683611414010" duration="7486000" />
     </task>
     <servers />
   </component>

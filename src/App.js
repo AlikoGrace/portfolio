@@ -46,7 +46,7 @@ function HomeScreen(){
                                 d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                         </svg>
                     </a></li>
-                    <li><a href="https://www.instagram.com/bchiang7" aria-label="Instagram" target="_blank"
+                    <li><a href="https://www.instagram.com/the_gracealiko" aria-label="Instagram" target="_blank"
                            rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -56,7 +56,7 @@ function HomeScreen(){
                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                         </svg>
                     </a></li>
-                    <li><a href="https://twitter.com/bchiang7" aria-label="Twitter" target="_blank" rel="noreferrer">
+                    <li><a href="https://twitter.com/AlikoGrace" aria-label="Twitter" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                              className="feather feather-twitter"><title>Twitter</title>
@@ -74,17 +74,7 @@ function HomeScreen(){
                             <rect x="2" y="9" width="4" height="12"></rect>
                             <circle cx="4" cy="4" r="2"></circle>
                         </svg>
-                    </a></li>
-                    <li><a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
-                             stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                             className="feather feather-codepen"><title>CodePen</title>
-                            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                            <line x1="12" y1="22" x2="12" y2="15.5"></line>
-                            <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                            <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                            <line x1="12" y1="2" x2="12" y2="8.5"></line>
-                        </svg>
+
                     </a></li>
                 </ul>
             </div>
@@ -131,8 +121,44 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
+                           <h3 class="project-title"><a href="https://www.zaptek.org/" target="_blank" rel="noopener noreferrer">A mobile responsive website for Zap Technologies</a></h3>
+                           <div class="project-description"><p>Building a custom responsive multisite for a student-led startup with react, bootstrap a javascript</p></div>
+                           <footer><ul class="project-tech-list"><li>React.js</li><li>Bootstrap</li><li>GitHub API</li></ul></footer>
+                       </div>
+                   </div>
+                   <div className="project col-md-4">
+                       <div className="content">
+                           <div className="project-header">
+                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                               <div className="project-links">
+                                   <a href="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                   </a>
+                                   <a href="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                   </a>
+                               </div>
+                           </div>
+                           <h3 class="project-title"><a href="https://axes-tech.com/" target="_blank" rel="noopener noreferrer">A multipurpose website for a technology skill training company</a></h3>
+                           <div class="project-description"><p>A responsive multipurpose website  where users can make direct payment.</p></div>
+                           <footer><ul class="project-tech-list"><li>React</li><li>Chart.js</li><li>Paystack API</li></ul></footer>
+                       </div>
+                   </div>
+                   <div className="project col-md-4">
+                       <div className="content">
+                           <div className="project-header">
+                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                               <div className="project-links">
+                                   <a href="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                   </a>
+                                   <a href="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                   </a>
+                               </div>
+                           </div>
+                           <h3 class="project-title"><a href="https://saferoyal.com/"  target="_blank" rel="noopener noreferrer">A room booking platform for students at the tertiary level</a></h3>
+                           <div class="project-description"><p>A website for viewing and booking available hostels and making payment receiving receipts of payment</p></div>
                            <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
                        </div>
                    </div>
@@ -149,9 +175,9 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
-                           <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
+                           <h3 class="project-title"><a href="https://alikograce.github.io/" target="_blank" rel="noopener noreferrer">My first website for a tek company OpionGhana</a></h3>
+                           <div class="project-description"><p>One of the first projects i had the opportunity to work on for an imaginary tek startup, never hosted but taught me a lots</p></div>
+                           <footer><ul class="project-tech-list"><li>html</li><li>Bootstrap</li><li>Sass</li></ul></footer>
                        </div>
                    </div>
                    <div className="project col-md-4">
@@ -167,9 +193,9 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
-                           <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
+                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
+                           <div class="project-description"><p>Building a custom multisite compatible next project plugin to build with modern technologies learned.</p></div>
+                           <footer><ul class="project-tech-list"><li>html</li><li>css</li><li>javacript</li></ul></footer>
                        </div>
                    </div>
                    <div className="project col-md-4">
@@ -185,44 +211,8 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
-                           <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 class="project-title"><a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
-                           <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 class="project-title"><a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
+                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">Integrating my next big project with new technologies gathered so far.</a></h3>
+                           <div class="project-description"><p> a custom responsive,user friendly plugin to build global search with a suitable company</p></div>
                            <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
                        </div>
                    </div>
@@ -339,28 +329,19 @@ function HomeScreen(){
                 <div className="hr-short"></div>
             </div>
             <section className="container bio" id={'me'}>
-                <h2 className="greeting_headline">Bio</h2>
+                <h2 className="greeting_headline">About me</h2>
                 <div className="container">
                     <div className="row">
                         <div className={'col-md-7'}>
-                            <p className={'text-theme'}>Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-                            interest in web development started back in 2012 when I decided to try editing custom Tumblr
-                            themes — turns out hacking together a custom reblog button taught me a lot about
-                            HTML &amp; CSS!</p>
-                            <p className={'text-theme'}>Fast-forward to today, and I’ve had the privilege of working at <a
-                            href="https://us.mullenlowe.com/" rel="noopener noreferrer" target="_blank">an advertising
-                            agency</a>, <a href="https://starry.com/" rel="noopener noreferrer" target="_blank">a
-                            start-up</a>, <a href="https://www.apple.com/" rel="noopener noreferrer" target="_blank">a
-                            huge corporation</a>, and <a href="https://scout.camd.northeastern.edu/"
-                                                         rel="noopener noreferrer" target="_blank">a student-led design
-                            studio</a>. My main focus these days is building accessible, inclusive products and digital
-                            experiences at <a href="https://upstatement.com/" rel="noopener noreferrer"
-                                              target="_blank">Upstatement</a> for a variety of clients.</p>
-                            <p className={'text-theme'}>I also
-                            recently <a href="https://www.newline.co/courses/build-a-spotify-connected-app"
-                                        rel="noopener noreferrer" target="_blank">launched a course</a> that covers
-                            everything you need to build a web app with the Spotify API using Node &amp; React.</p>
+                            <p className={'text-theme'}>Hi there, I'm Grace Aliko, a skilled web developer with a passion for creating user-friendly and visually appealing websites. With 3 years of experience in the field. I have the technical knowledge and expertise needed to deliver exceptional results.
+                            </p>
+                            <p className={'text-theme'}>As a developer, I believe that user experience should always come first. I take pride in creating websites that are easy to navigate, accessible, and functional. I've worked on a wide range of projects and have honed my skills in several programming languages, including HTML, CSS, JavaScript, and PHP. I'm also proficient in using popular web development frameworks such as React, Vue.js, and Angular.I make sure to maintain clear and open communication with clients and team members throughout the development process since they are a do away without.
+                            </p>
+                            <p className={'text-theme'}> Take a look at my portfolio to see some of my best work, including websites I've designed, built, and maintained. I'm especially proud of <a href="https://saferoyal.com/">Safe Royal</a> and <a href="https://axes-tech.com/">Learn with axes</a> which demonstrates my ability to create a website that perfectly meets a client's needs.</p>
+                            <p className={'text-theme'}>Outside of web development, I'm an avid reader, reader, and saxophonist.I'm excited to work with you on your next web development project and bring your vision to life. Let's create a website that's both beautiful and functional!</p>
                             <p className={'text-theme'}>Here are a few technologies I’ve been working with recently:</p>
+
+
                             <ul className="skills-list">
                                 <li>JavaScript (ES6+)</li>
                                 <li>TypeScript</li>
