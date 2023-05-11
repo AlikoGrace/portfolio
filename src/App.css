@@ -6,7 +6,30 @@
 
 .aliko-card {
     position: relative;
+}
 
+.socials-md{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socials-md .social-links{
+    display: flex;
+    gap: 3em;
+}
+
+.socials-md svg{
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    box-sizing: inherit;
+    max-width: 100%;
+    vertical-align: middle;
+    fill: none;
+    width: 20px;
+    height: 20px;
 }
 
 .aliko-card img {
@@ -46,12 +69,12 @@
 }
 
 .skills-list{
-    display: grid;
     color:#8892b0;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     gap: 0px 10px;
     padding: 0px;
     margin: 20px 0px 0px;
+    list-style: none;
     overflow: hidden;
 }
 
@@ -72,7 +95,7 @@ ul.skills-list li::before {
     background-color: transparent;
     border: 1px solid rgba(255,255,255,.5);
     border-radius: 4px;
-    padding: 0.75rem 1rem;
+    padding: 0.3rem 1rem;
     font-family: var(--font-mono);
     line-height: 1;
     text-decoration: none;
@@ -83,11 +106,15 @@ ul.skills-list li::before {
 
 
 .project{
-    padding: 0.5em;
+    padding: 0.5em 1em;
     margin-bottom: 0.5em;
 }
 
 .project .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20em;
     padding: 2.5em 1.5em ;
     background-color: #112240;
     border-radius: 3px;
@@ -183,6 +210,8 @@ ul.skills-list li::before {
     display:flex;
     justify-content: space-between;
 }
+
+
 
 .side-left-ul svg{
     --dark-navy: #020c1b;
@@ -621,5 +650,11 @@ p.description-p {
 
     .intro-box {
         background: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .socials-md{
+        display: none;
     }
 }

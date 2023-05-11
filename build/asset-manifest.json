@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.77121971.css",
-    "main.js": "/static/js/main.9a714766.js",
+    "main.css": "/static/css/main.fd695d7d.css",
+    "main.js": "/static/js/main.ad876497.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/maliko.png": "/static/media/maliko.4061ed15399add55fc75.png",
     "static/media/pattern-1.png": "/static/media/pattern-1.374740caae8625e049bb.png",
     "static/media/logo.png": "/static/media/logo.2d544531dd0e8c75935d.png",
     "static/media/data-care-transport-services.png": "/static/media/data-care-transport-services.3e137185757e05c9c849.png",
     "index.html": "/index.html",
-    "main.77121971.css.map": "/static/css/main.77121971.css.map",
-    "main.9a714766.js.map": "/static/js/main.9a714766.js.map",
+    "main.fd695d7d.css.map": "/static/css/main.fd695d7d.css.map",
+    "main.ad876497.js.map": "/static/js/main.ad876497.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77121971.css",
-    "static/js/main.9a714766.js"
+    "static/css/main.fd695d7d.css",
+    "static/js/main.ad876497.js"
   ]
 }

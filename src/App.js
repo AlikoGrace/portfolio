@@ -1,6 +1,7 @@
 import './App.css';
 import logo from './images/logo.png';
 import alikoPic from './images/maliko.png'
+import resume from './Grace Aliko-resume.pdf'
 import React from "react";
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
@@ -20,7 +21,7 @@ function HomeScreen(){
 
                 <div className="collapse navbar-collapse w-100 justify-content-end"
                      id="navbarSupportedContent">
-                    <div className="flex-grow-1">
+                    <div className="flex-grow-1 mr-5">
                         <ul className="navbar-nav justify-content-end">
                             <li className="nav-item">
                                 <a className="nav-link" href="/#projects">Projects <span className="sr-only">(current)</span></a>
@@ -31,7 +32,7 @@ function HomeScreen(){
                             <li className="nav-item">
                                 <a className="nav-link" href={'/#me'}>Me</a>
                             </li>
-                            <li><button className={'resume-btn'}>Resume</button></li>
+                            <li className="nav-item"><a className={'nav-link resume-btn'} target={'_blank'} href={resume}>Resume</a></li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +109,7 @@ function HomeScreen(){
             <section className="container projects" id={'projects'}>
                 <h2 className="greeting_headline">Projects</h2>
                <div className="row">
-                   <div className="project col-md-4">
+                   <div className="project col-md-6 project col-lg-4">
                        <div className="content">
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -121,12 +122,12 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://www.zaptek.org/" target="_blank" rel="noopener noreferrer">A mobile responsive website for Zap Technologies</a></h3>
-                           <div class="project-description"><p>Building a custom responsive multisite for a student-led startup with react, bootstrap a javascript</p></div>
-                           <footer><ul class="project-tech-list"><li>React.js</li><li>Bootstrap</li><li>GitHub API</li></ul></footer>
+                           <h3 className="project-title"><a href="https://www.zaptek.org/" target="_blank" rel="noopener noreferrer"> Zap Technologies</a></h3>
+                           <div className="project-description"><p>Building a custom responsive multisite for a student-led startup with react, bootstrap a javascript</p></div>
+                           <footer><ul className="project-tech-list"><li>React.js</li><li>Bootstrap</li><li>GitHub API</li></ul></footer>
                        </div>
                    </div>
-                   <div className="project col-md-4">
+                   <div className="project col-md-6 project col-lg-4">
                        <div className="content">
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -139,12 +140,12 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://axes-tech.com/" target="_blank" rel="noopener noreferrer">A multipurpose website for a technology skill training company</a></h3>
-                           <div class="project-description"><p>A responsive multipurpose website  where users can make direct payment.</p></div>
-                           <footer><ul class="project-tech-list"><li>React</li><li>Chart.js</li><li>Paystack API</li></ul></footer>
+                           <h3 className="project-title"><a href="https://axes-tech.com/" target="_blank" rel="noopener noreferrer">Learn With Axes</a></h3>
+                           <div className="project-description"><p>A responsive multipurpose website  where users can make direct payment.</p></div>
+                           <footer><ul className="project-tech-list"><li>React</li><li>Chart.js</li><li>Paystack API</li></ul></footer>
                        </div>
                    </div>
-                   <div className="project col-md-4">
+                   <div className="project col-md-6 project col-lg-4">
                        <div className="content">
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -157,30 +158,30 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://saferoyal.com/"  target="_blank" rel="noopener noreferrer">A room booking platform for students at the tertiary level</a></h3>
-                           <div class="project-description"><p>A website for viewing and booking available hostels and making payment receiving receipts of payment</p></div>
-                           <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
+                           <h3 className="project-title"><a href="https://saferoyal.com/" target="_blank" rel="noopener noreferrer">Safe Royal</a></h3>
+                           <div className="project-description"><p>A room booking website for viewing and booking available hostels and making payment receiving receipts of payment</p></div>
+                           <footer><ul className="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
                        </div>
                    </div>
-                   <div className="project col-md-4">
+                   <div className="project col-md-6 project col-lg-4">
                        <div className="content">
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                <div className="project-links">
-                                   <a href="">
+                                   <a href="https://alikograce.github.io/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                    </a>
-                                   <a href="">
+                                   <a href="https://alikograce.github.io/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="https://alikograce.github.io/" target="_blank" rel="noopener noreferrer">My first website for a tek company OpionGhana</a></h3>
-                           <div class="project-description"><p>One of the first projects i had the opportunity to work on for an imaginary tek startup, never hosted but taught me a lots</p></div>
-                           <footer><ul class="project-tech-list"><li>html</li><li>Bootstrap</li><li>Sass</li></ul></footer>
+                           <h3 className="project-title"><a href="https://alikograce.github.io/" target="_blank" rel="noopener noreferrer"> OpionGhana</a></h3>
+                           <div className="project-description"><p>One of the first projects i had the opportunity to work on for an imaginary tek startup, never hosted but taught me a lots</p></div>
+                           <footer><ul className="project-tech-list"><li>html</li><li>Bootstrap</li><li>Sass</li></ul></footer>
                        </div>
                    </div>
-                   <div className="project col-md-4">
+                   <div className="project col-md-6 project col-lg-4">
                        <div className="content">
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -193,12 +194,12 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a></h3>
+                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">New Projects</a></h3>
                            <div class="project-description"><p>Building a custom multisite compatible next project plugin to build with modern technologies learned.</p></div>
                            <footer><ul class="project-tech-list"><li>html</li><li>css</li><li>javacript</li></ul></footer>
                        </div>
                    </div>
-                   <div className="project col-md-4">
+                   <div className="project col-md-6 project col-lg-4">
                        <div className="content">
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -211,7 +212,7 @@ function HomeScreen(){
                                    </a>
                                </div>
                            </div>
-                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">Integrating my next big project with new technologies gathered so far.</a></h3>
+                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">Next Project</a></h3>
                            <div class="project-description"><p> a custom responsive,user friendly plugin to build global search with a suitable company</p></div>
                            <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
                        </div>
@@ -225,9 +226,7 @@ function HomeScreen(){
                 <h2 className="greeting_headline">Technologies</h2>
                 <div className="container">
                     <p className="description-p ">
-                        I've worked with a range of technologies, from web-apps to mobile-apps to machine-learning
-                        technologies
-                        and I've worked with a variety of languages.
+                        I've worked with a range of technologies, from web-apps to mobile-apps.
                     </p>
 
                     <div className="row ">
@@ -252,8 +251,7 @@ function HomeScreen(){
                             </svg>
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Back-End</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>Node,
-                                Php and Databases including Relational and Non-relational (Firebase)</p></div>
+                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>Databases including Relational and Non-relational (Firebase)</p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" strokeWidth="0" version="1.1"
@@ -298,7 +296,7 @@ function HomeScreen(){
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Mobile Apps</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
-                                Flutter and Andriod app dev.</p></div>
+                                Flutter</p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
@@ -310,17 +308,6 @@ function HomeScreen(){
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Scripting</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
                                 bash, batch and python</p></div>
-                        </div>
-                        <div className="col-md-4">
-                            <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
-                                 viewBox="0 0 32 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M15.334 14.023c0 0 0-2.972 2.972-2.972h8.917c0 0 0 2.972-2.972 2.972h-8.917zM15.334 17.821c0 0 0-2.972 2.972-2.972h4.459c0 0 0 2.972-2.972 2.972h-4.459zM15.334 21.619c0 0 0-2.972 2.972-2.972h1.486c0 0 0 2.972-2.972 2.972h-1.486zM14.336 19.3v2.371h-9.559l6.158-8.399h-5.286v-2.371h9.972l-6.129 8.4z"></path>
-                            </svg>
-                            <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">ML</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
-                                Numpy, Scipy, Pandas, Tensorflow</p></div>
                         </div>
                     </div>
                 </div>
@@ -335,7 +322,7 @@ function HomeScreen(){
                         <div className={'col-md-7'}>
                             <p className={'text-theme'}>Hi there, I'm Grace Aliko, a skilled web developer with a passion for creating user-friendly and visually appealing websites. With 3 years of experience in the field. I have the technical knowledge and expertise needed to deliver exceptional results.
                             </p>
-                            <p className={'text-theme'}>As a developer, I believe that user experience should always come first. I take pride in creating websites that are easy to navigate, accessible, and functional. I've worked on a wide range of projects and have honed my skills in several programming languages, including HTML, CSS, JavaScript, and PHP. I'm also proficient in using popular web development frameworks such as React, Vue.js, and Angular.I make sure to maintain clear and open communication with clients and team members throughout the development process since they are a do away without.
+                            <p className={'text-theme'}>As a developer, I believe that user experience should always come first. I take pride in creating websites that are easy to navigate, accessible, and functional. I've worked on a wide range of projects and have honed my skills in several programming languages, including HTML, CSS, JavaScript, and PHP. I'm also proficient in using popular web development frameworks such as React.I make sure to maintain clear and open communication with clients and team members throughout the development process since they are a do away without.
                             </p>
                             <p className={'text-theme'}> Take a look at my portfolio to see some of my best work, including websites I've designed, built, and maintained. I'm especially proud of <a href="https://saferoyal.com/">Safe Royal</a> and <a href="https://axes-tech.com/">Learn with axes</a> which demonstrates my ability to create a website that perfectly meets a client's needs.</p>
                             <p className={'text-theme'}>Outside of web development, I'm an avid reader, reader, and saxophonist.I'm excited to work with you on your next web development project and bring your vision to life. Let's create a website that's both beautiful and functional!</p>
@@ -344,11 +331,10 @@ function HomeScreen(){
 
                             <ul className="skills-list">
                                 <li>JavaScript (ES6+)</li>
-                                <li>TypeScript</li>
                                 <li>React</li>
-                                <li>Eleventy</li>
                                 <li>Node.js</li>
-                                <li>WordPress</li>
+                                <li>Dart</li>
+                                <li>BootStrap</li>
                             </ul>
                         </div>
                         <div className="col-md-5">
@@ -372,8 +358,52 @@ function HomeScreen(){
                             className="email-header">Email</h4><a
                             href="mailto:gracealiko08@gmail.com" className="email-link">gracealiko08@gmail.com</a></div>
                     </div>
-
                 </ul>
+                <div className="container">
+                    <div className={'socials-md'}>
+                        <ul className="social-links">
+                            <li><a href="https://github.com/AlikoGrace" aria-label="GitHub" target="_blank" rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                                     className="feather feather-github"><title>GitHub</title>
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a></li>
+                            <li><a href="https://www.instagram.com/the_gracealiko" aria-label="Instagram" target="_blank"
+                                   rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                                     className="feather feather-instagram"><title>Instagram</title>
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a></li>
+                            <li><a href="https://twitter.com/AlikoGrace" aria-label="Twitter" target="_blank" rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                                     className="feather feather-twitter"><title>Twitter</title>
+                                    <path
+                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                </svg>
+                            </a></li>
+                            <li><a href="https://www.linkedin.com/in/grace-aliko" aria-label="Linkedin" target="_blank"
+                                   rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                                     className="feather feather-linkedin"><title>LinkedIn</title>
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </section>
         </section>
     );
