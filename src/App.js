@@ -88,11 +88,11 @@ function HomeScreen(){
                     <div className="row intro-box">
                         <div className="col-md-9">
                             <section className={'container mb-5'}>
-                                <p style={{fontSize:'25px',color:'white'}}>Hi there!</p>
-                                <h3 style={{fontSize:'32px',color:'white'}}>I'm Grace Aliko</h3>
-                                <h2 className={'greeting_headline'}>I build things for the web</h2>
+                                <p  className="Hi" style={{color:'white'}}>Hi there!</p>
+                                <h3  className="spider" style={{color:'white'}}>I'm Spider Aliko</h3>
+                                <h2 className={'greeting_headline-2'}>I craft the Web's best!</h2>
                                 <div className="row">
-                                    <p className="col-md-9 description-p"> I'm a software engineer with a passion for creating exceptional digital experiences that prioritize accessibility and user-centered design. I currently manage ZapTek, where we specialize in building products that meet these standards.
+                                    <p className="col-md-9 description-p"> I am a web-weaving software engineer who creates exceptional digital experiences that put users first. At ZapTek, we specialize in crafting webs that prioritize accessibility and user-centered design. Let's spin a web that's both beautiful and functional, and take your digital presence to new heights!
                                     </p>
                                 </div>
                             </section>
@@ -241,7 +241,7 @@ function HomeScreen(){
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Front-End</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>React.js,
-                                Next.js, and Bootstrap</p></div>
+                                Next.js, Bootstrap, and tailwind</p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
@@ -320,12 +320,10 @@ function HomeScreen(){
                 <div className="container">
                     <div className="row">
                         <div className={'col-md-7'}>
-                            <p className={'text-theme'}>Hi there, I'm Grace Aliko, a skilled web developer with a passion for creating user-friendly and visually appealing websites. With 3 years of experience in the field. I have the technical knowledge and expertise needed to deliver exceptional results.
+                            <p className={'text-theme'}> I'm Grace Aliko, a skilled web developer with 3 years of experience in creating user-friendly and visually appealing websites. I prioritize user experience and have expertise in several programming languages, including HTML, CSS, JavaScript, and PHP, as well as popular web development frameworks such as React. I maintain clear and open communication with clients and team members throughout the development process.
                             </p>
-                            <p className={'text-theme'}>As a developer, I believe that user experience should always come first. I take pride in creating websites that are easy to navigate, accessible, and functional. I've worked on a wide range of projects and have honed my skills in several programming languages, including HTML, CSS, JavaScript, and PHP. I'm also proficient in using popular web development frameworks such as React.I make sure to maintain clear and open communication with clients and team members throughout the development process since they are a do away without.
+                            <p className={'text-theme'}> Please take a look at my portfolio to see some of my best work, including <a href="https://saferoyal.com/">Safe Royal</a> and <a href="https://axes-tech.com/">Learn with axes</a> which demonstrate my ability to create websites that meet a client's needs. Outside of web development, I enjoy reading and playing the saxophone. I'm excited to work with you on your next web development project and bring your vision to life. Let's create a website that's both beautiful and functional!
                             </p>
-                            <p className={'text-theme'}> Take a look at my portfolio to see some of my best work, including websites I've designed, built, and maintained. I'm especially proud of <a href="https://saferoyal.com/">Safe Royal</a> and <a href="https://axes-tech.com/">Learn with axes</a> which demonstrates my ability to create a website that perfectly meets a client's needs.</p>
-                            <p className={'text-theme'}>Outside of web development, I'm an avid reader, reader, and saxophonist.I'm excited to work with you on your next web development project and bring your vision to life. Let's create a website that's both beautiful and functional!</p>
                             <p className={'text-theme'}>Here are a few technologies I’ve been working with recently:</p>
 
 

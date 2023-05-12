@@ -558,12 +558,31 @@ p.description-p {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.spider{
+font-size: 32px;
+}
+
+.Hi{
+    font-size: 25px;
+}
+
 .side-background {
     background-image: url("./images/logo.png");
     height: 630px;
 }
 
 .greeting_headline {
+    font-weight: 500;
+    font-size: 1.8em;
+    line-height: 45px;
+    width: max-content;
+    max-width: 100%;
+    color: #de8900;
+    margin-bottom: 16px;
+    padding: 0.2em 0;
+}
+
+.greeting_headline-2{
     font-weight: 900;
     font-size: 3.8em;
     line-height: 45px;
@@ -588,16 +607,22 @@ p.description-p {
         margin: 0;
     }
 
+
+
     br {
         display: block; /* makes it have a width */
         content: ""; /* clears default height */
         margin: 0 10px; /* change this to whatever height you want it */
     }
 
-    h2.greeting_headline {
+    h2.greeting_headline-2{
         font-size: 2em;
+    }
+
+
+    h2.greeting_headline {
+        font-size: 1em;
         line-height: initial;
-        /*// height:7em;*/
     }
 
     .horse-aside {
@@ -633,14 +658,28 @@ p.description-p {
         margin: 0 10px; /* change this to whatever height you want it */
     }
 
+    h2.greeting_headline-2{
+        font-size: 1.5em;
+    }
+
+    .spider{
+        font-size: 1em;
+    }
+
+    .Hi{
+        font-size: 15px;
+    }
+
+
+
     h2.greeting_headline {
-        font-size: 3em;
+        font-size: 1.5em;
         line-height: initial;
         /*// height:7em;*/
     }
 
-    .p.description-p {
-        font-size: 1.4em;
+    p.description-p {
+        font-size: 0.8em;
     }
 
 
@@ -657,4 +696,7 @@ p.description-p {
     .socials-md{
         display: none;
     }
+
+
+
 }
