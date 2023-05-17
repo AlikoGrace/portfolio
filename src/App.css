@@ -88,6 +88,10 @@ ul.skills-list li::before {
 
 }
 
+.tecnologies-tek{
+    margin-bottom: 30px;
+}
+
 
 
 .resume-btn {
@@ -344,6 +348,7 @@ ul.skills-list li::before {
 }
 
 .hr-short {
+    margin-top: 30px;
     width: 64px;
     height: 6px;
     border-radius: 10px;
@@ -550,7 +555,7 @@ a.nav-link {
 
 p.description-p {
     max-width: 800px;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     line-height: 30px;
     color: #fff;
     font-weight: 300;
@@ -679,7 +684,7 @@ font-size: 32px;
     }
 
     p.description-p {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
 

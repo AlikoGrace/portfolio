@@ -8,11 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.fd695d7d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.fd695d7d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.ad876497.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.ad876497.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.ad876497.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.17adafb7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.17adafb7.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.202da675.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.202da675.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.202da675.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/Grace Aliko-resume.78c2bb270df37c7b480b.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Grace Aliko-resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grace Aliko-resume.pdf" afterDir="false" />
@@ -115,7 +116,10 @@
       <workItem from="1683541016292" duration="659000" />
       <workItem from="1683611414010" duration="8393000" />
       <workItem from="1683792417697" duration="8037000" />
-      <workItem from="1683845617650" duration="6219000" />
+      <workItem from="1683845617650" duration="6825000" />
+      <workItem from="1683895194395" duration="2439000" />
+      <workItem from="1684259685233" duration="687000" />
+      <workItem from="1684356249019" duration="777000" />
     </task>
     <servers />
   </component>

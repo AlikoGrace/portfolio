@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './images/logo.png';
+import logo from './images/logo.jpg';
 import alikoPic from './images/maliko.png'
 import resume from './Grace Aliko-resume.pdf'
 import React from "react";
@@ -114,10 +114,10 @@ function HomeScreen(){
                            <div className="project-header">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                <div className="project-links">
-                                   <a href="">
+                                   <a href="https://www.zaptek.org/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                    </a>
-                                   <a href="">
+                                   <a href="https://www.zaptek.org/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                    </a>
                                </div>
@@ -135,13 +135,13 @@ function HomeScreen(){
                                    <a href="">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                    </a>
-                                   <a href="">
+                                   <a href="https://axes-tech.com/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                    </a>
                                </div>
                            </div>
                            <h3 className="project-title"><a href="https://axes-tech.com/" target="_blank" rel="noopener noreferrer">Learn With Axes</a></h3>
-                           <div className="project-description"><p>A responsive multipurpose website  where users can make direct payment.</p></div>
+                           <div className="project-description"><p>An EdTech  platform  where users can make direct payment for courses they wish to enroll in. </p></div>
                            <footer><ul className="project-tech-list"><li>React</li><li>Chart.js</li><li>Paystack API</li></ul></footer>
                        </div>
                    </div>
@@ -153,13 +153,13 @@ function HomeScreen(){
                                    <a href="">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                    </a>
-                                   <a href="">
+                                   <a href="https://saferoyal.com/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                    </a>
                                </div>
                            </div>
                            <h3 className="project-title"><a href="https://saferoyal.com/" target="_blank" rel="noopener noreferrer">Safe Royal</a></h3>
-                           <div className="project-description"><p>A room booking website for viewing and booking available hostels and making payment receiving receipts of payment</p></div>
+                           <div className="project-description"><p>A room booking platform for viewing and booking available hostels and making payment receiving receipts of payment</p></div>
                            <footer><ul className="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
                        </div>
                    </div>
@@ -189,7 +189,7 @@ function HomeScreen(){
                                    <a href="">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                    </a>
-                                   <a href="">
+                                   <a href="https://alikograce.github.io/">
                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                                    </a>
                                </div>
@@ -230,7 +230,7 @@ function HomeScreen(){
                     </p>
 
                     <div className="row ">
-                        <div className="col-md-4">
+                        <div className="col-md-4 tecnologies-tek">
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
                                  viewBox="0 0 34 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -243,7 +243,7 @@ function HomeScreen(){
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>React.js,
                                 Next.js, Bootstrap, and tailwind</p></div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 tecnologies-tek" >
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
                                  viewBox="0 0 32 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -253,7 +253,7 @@ function HomeScreen(){
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Back-End</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>Databases including Relational and Non-relational (Firebase)</p></div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 tecnologies-tek">
                             <svg stroke="#fff" strokeWidth="0" version="1.1"
                                  viewBox="0 0 240 234" height="2.5rem" width="2.5rem"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -270,7 +270,7 @@ function HomeScreen(){
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 tecnologies-tek">
                             <svg width="2em" height="2em" viewBox="0 0 256 317" version="1.1"
                                  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
                                 <defs>
@@ -298,7 +298,7 @@ function HomeScreen(){
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
                                 Flutter</p></div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 tecnologies-tek">
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
                                  viewBox="0 0 32 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
                                 <path

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.17adafb7.css",
-    "main.js": "/static/js/main.202da675.js",
+    "main.css": "/static/css/main.556d3494.css",
+    "main.js": "/static/js/main.8bfeb7f0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/maliko.png": "/static/media/maliko.4061ed15399add55fc75.png",
-    "static/media/Grace Aliko-resume.pdf": "/static/media/Grace Aliko-resume.78c2bb270df37c7b480b.pdf",
     "static/media/pattern-1.png": "/static/media/pattern-1.374740caae8625e049bb.png",
+    "static/media/Grace Aliko-resume.pdf": "/static/media/Grace Aliko-resume.02dbb7a6dfda3207c202.pdf",
     "static/media/logo.png": "/static/media/logo.2d544531dd0e8c75935d.png",
     "static/media/data-care-transport-services.png": "/static/media/data-care-transport-services.3e137185757e05c9c849.png",
     "index.html": "/index.html",
-    "main.17adafb7.css.map": "/static/css/main.17adafb7.css.map",
-    "main.202da675.js.map": "/static/js/main.202da675.js.map",
+    "main.556d3494.css.map": "/static/css/main.556d3494.css.map",
+    "main.8bfeb7f0.js.map": "/static/js/main.8bfeb7f0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17adafb7.css",
-    "static/js/main.202da675.js"
+    "static/css/main.556d3494.css",
+    "static/js/main.8bfeb7f0.js"
   ]
 }
