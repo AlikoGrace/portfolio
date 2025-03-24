@@ -7,6 +7,43 @@ import React from "react";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import DataCareTransportScreen from './project_details/DataCareTransportScreen';
 
+const projects = [
+    {
+      title: "Zap Technologies",
+      description: "Building a custom responsive multisite for a student-led startup with React, Bootstrap, and JavaScript.",
+      technologies: ["React.js", "Bootstrap", "GitHub API"],
+      githubLink: "https://www.zaptek.org/",
+      liveLink: "https://www.zaptek.org/",
+    },
+    {
+      title: "Learn With Axes",
+      description: "An EdTech platform where users can make direct payments for courses they wish to enroll in.",
+      technologies: ["React", "Chart.js", "Paystack API"],
+      githubLink: "",
+      liveLink: "https://axes-tech.com/",
+    },
+    {
+      title: "SafeRoyal",
+      description: "A security system platform offering AI-based monitoring and reporting tools.",
+      technologies: ["React", "Node.js", "MongoDB"],
+      githubLink: "",
+      liveLink: "https://saferoyal.com/",
+    },
+    {
+        title: "LEXARIQ",
+        description: "A Deep Learning Framework for Dyslexia Detection",
+        technologies: ["React Native"],
+        githubLink: "",
+        liveLink: "",
+    },
+    {
+        title: "KNUST EXPRESSO",
+        description: " A Web App Streamlining the Request of Academic Letters",
+        technologies: ["React"],
+        githubLink: "",
+        liveLink: "",
+    },
+  ];
 
 function HomeScreen(){
     return (
@@ -92,7 +129,11 @@ function HomeScreen(){
                                 <h3  className="spider" style={{color:'white'}}>I'm Spider Aliko</h3>
                                 <h2 className={'greeting_headline-2'}>I craft the Web's best!</h2>
                                 <div className="row">
-                                    <p className="col-md-9 description-p"> I am a web-weaving software engineer who creates exceptional digital experiences that put users first. At ZapTek, we specialize in crafting webs that prioritize accessibility and user-centered design. Let's spin a web that's both beautiful and functional, and take your digital presence to new heights!
+                                    <p className="col-md-9 description-p"> I am a versatile software developer with a strong work ethic, natural curiosity, and a passion for
+continuous learning. Proficient in JavaScript and experienced in both frontend and backend
+development using related frameworks. Recognized for consistently delivering high-quality work and
+driven by a passion for problem-solving and efficiency improvements, with a keen interest in
+automation and AI-driven solutions.
                                     </p>
                                 </div>
                             </section>
@@ -108,116 +149,53 @@ function HomeScreen(){
             </div>
             <section className="container projects" id={'projects'}>
                 <h2 className="greeting_headline">Projects</h2>
-               <div className="row">
-                   <div className="project col-md-6 project col-lg-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="https://www.zaptek.org/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="https://www.zaptek.org/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 className="project-title"><a href="https://www.zaptek.org/" target="_blank" rel="noopener noreferrer"> Zap Technologies</a></h3>
-                           <div className="project-description"><p>Building a custom responsive multisite for a student-led startup with react, bootstrap a javascript</p></div>
-                           <footer><ul className="project-tech-list"><li>React.js</li><li>Bootstrap</li><li>GitHub API</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-6 project col-lg-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="https://axes-tech.com/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 className="project-title"><a href="https://axes-tech.com/" target="_blank" rel="noopener noreferrer">Learn With Axes</a></h3>
-                           <div className="project-description"><p>An EdTech  platform  where users can make direct payment for courses they wish to enroll in. </p></div>
-                           <footer><ul className="project-tech-list"><li>React</li><li>Chart.js</li><li>Paystack API</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-6 project col-lg-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="https://saferoyal.com/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 className="project-title"><a href="https://saferoyal.com/" target="_blank" rel="noopener noreferrer">Safe Royal</a></h3>
-                           <div className="project-description"><p>A room booking platform for viewing and booking available hostels and making payment receiving receipts of payment</p></div>
-                           <footer><ul className="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-6 project col-lg-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="https://alikograce.github.io/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="https://alikograce.github.io/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 className="project-title"><a href="https://alikograce.github.io/" target="_blank" rel="noopener noreferrer"> OpionGhana</a></h3>
-                           <div className="project-description"><p>One of the first projects i had the opportunity to work on for an imaginary tek startup, never hosted but taught me a lots</p></div>
-                           <footer><ul className="project-tech-list"><li>html</li><li>Bootstrap</li><li>Sass</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-6 project col-lg-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="https://alikograce.github.io/">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">New Projects</a></h3>
-                           <div class="project-description"><p>Building a custom multisite compatible next project plugin to build with modern technologies learned.</p></div>
-                           <footer><ul class="project-tech-list"><li>html</li><li>css</li><li>javacript</li></ul></footer>
-                       </div>
-                   </div>
-                   <div className="project col-md-6 project col-lg-4">
-                       <div className="content">
-                           <div className="project-header">
-                               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                               <div className="project-links">
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                   </a>
-                                   <a href="">
-                                       <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                   </a>
-                               </div>
-                           </div>
-                           <h3 class="project-title"><a href="" target="_blank" rel="noopener noreferrer">Next Project</a></h3>
-                           <div class="project-description"><p> a custom responsive,user friendly plugin to build global search with a suitable company</p></div>
-                           <footer><ul class="project-tech-list"><li>Next.js</li><li>Chart.js</li><li>GitHub API</li></ul></footer>
-                       </div>
-                   </div>
-               </div>
+                <div className="row">
+      {projects.map((project, index) => (
+        <div key={index} className="project col-md-6 col-lg-4">
+          <div className="content">
+            <div className="project-header">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="feather feather-folder">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                {project.githubLink && (
+                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github">
+                      <title>GitHub</title>
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                )}
+                {project.liveLink && (
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-external-link">
+                      <title>External Link</title>
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                )}
+              </div>
+            </div>
+            <h3 className="project-title">
+              <a href={project.liveLink} target="_blank" rel="noopener noreferrer">{project.title}</a>
+            </h3>
+            <div className="project-description">
+              <p>{project.description}</p>
+            </div>
+            <footer>
+              <ul className="project-tech-list">
+                {project.technologies.map((tech, i) => (
+                  <li key={i}>{tech}</li>
+                ))}
+              </ul>
+            </footer>
+          </div>
+        </div>
+      ))}
+    </div>
             </section>
             <div className="container">
                 <div className="hr-short"></div>
@@ -319,21 +297,12 @@ function HomeScreen(){
                 <h2 className="greeting_headline">About me</h2>
                 <div className="container">
                     <div className="row">
-                        <div className={'col-md-7'}>
-                            <p className={'text-theme'}> I'm Grace Aliko, a skilled web developer with 3 years of experience in creating user-friendly and visually appealing websites. I prioritize user experience and have expertise in several programming languages, including HTML, CSS, JavaScript, and PHP, as well as popular web development frameworks such as React. I maintain clear and open communication with clients and team members throughout the development process.
-                            </p>
-                            <p className={'text-theme'}> Please take a look at my portfolio to see some of my best work, including <a href="https://saferoyal.com/">Safe Royal</a> and <a href="https://axes-tech.com/">Learn with axes</a> which demonstrate my ability to create websites that meet a client's needs. Outside of web development, I enjoy reading and playing the saxophone. I'm excited to work with you on your next web development project and bring your vision to life. Let's create a website that's both beautiful and functional!
-                            </p>
-                            <p className={'text-theme'}>Here are a few technologies I’ve been working with recently:</p>
+                        <div className={'col-md-7 text-white'}>
+<p>I am tech enthusiast always eager to grow and evolve. Passionate about continuous learning and upskilling, I am a versatile and goal-oriented individual driven to achieve excellence in everything I do. I have experience in full-stack development (MERN stack) and knowledge in cleaning data and building machine learning models.</p>
 
+<p>Currently, I’m diving deep into the intersection of Human-Computer Interaction (HCI) with game-based learning and therapy, focusing on creating impactful solutions for individuals with disabilities, especially in marginalized communities.</p>
 
-                            <ul className="skills-list">
-                                <li>JavaScript (ES6+)</li>
-                                <li>React</li>
-                                <li>Node.js</li>
-                                <li>Dart</li>
-                                <li>BootStrap</li>
-                            </ul>
+<p>When I’m not coding or researching, you’ll probably find me reading about financial literacy, productivity, or binge-watching a Marvel movie (don’t judge!). I’m a team player with excellent problem-solving skills, and I bring energy, creativity, and a lot of fun to every project I’m part of. Oh, and I’m also super passionate about making a positive community impact!</p>
                         </div>
                         <div className="col-md-5">
                             <div className="aliko-card">
